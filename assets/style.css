@@ -1,0 +1,38 @@
+*{
+    background-color: #ffebcd;
+}
+
+#submit {
+    padding: 10px 16px;
+    text-align: center;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    background-color:#de8c8c; 
+    border-radius: 10px;
+  }
+  
+  #submit:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .from-control
+  {
+      margin:1em;
+  }
+
+  label 
+{
+    display: inline-block;
+    width: 7em;
+}
+
+input
+{
+    background-color: #ffffff;
+}
