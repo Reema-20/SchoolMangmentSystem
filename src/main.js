@@ -84,14 +84,14 @@ function updateStu(listIndex)
 	var updateID = prompt("Please enter the updated ID");
 	var updateGdpa = prompt("Please enter the updated GDPA");
 
-	if(updateName !== null)
-		{students[listIndex].name=updateName;}
+	if(updateName != null)
+		{students[listIndex].name = updateName;}
 
-	if(updateID !== null)
-		{students[listIndex].id=updateID;}
+	if(updateID != null)
+		{students[listIndex].id = updateID;}
 
-	if(updateGdpa !== null)
-		{students[listIndex].gdpa=updateGdpa;}
+	if(updateGdpa != null)
+		{students[listIndex].gdpa = updateGdpa;}
 
 }
 
